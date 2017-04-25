@@ -1,0 +1,32 @@
+h1 {
+    color:#ACC4E0;
+    text-align: center;
+}
+h3 {
+    color:#ACC4E0;
+    text-align: right;
+}
+.sketch{
+    color:#FFFFFF;
+    background-color: #D3B88C;
+    text-align: center;
+}
+.prod{
+    color:#F4C8CB;
+    background-color: #ACC4E0;
+    text-align: center;
+}
+.fine{
+    color:#D3B88C;
+    background-color: #F4C8CB;
+    text-align: center;
+}
+
+.header{
+  margin-top: 30px;
+  margin-bottom: 30px
+}
+
+.gallery{
+  margin-bottom: 20px;
+}
