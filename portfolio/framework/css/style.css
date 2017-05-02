@@ -6,31 +6,43 @@ h3 {
     color:#ACC4E0;
     text-align: right;
 }
+
 .sketch{
-    color:#FFFFFF;
     background-color: #D3B88C;
     text-align: center;
 }
+
+.sketch>a{
+    color:#FFFFFF;
+}
+
 .prod{
-    color:#F4C8CB;
     background-color: #ACC4E0;
     text-align: center;
 }
+
+.prod>a{
+    color:#F4C8CB;
+}
+
 .fine{
-    color:#D3B88C;
     background-color: #F4C8CB;
     text-align: center;
 }
 
+.fine>a{
+    color:#D3B88C;
+}
+
 .header{
-  margin-top: 30px;
-  margin-bottom: 30px
+    margin-top: 30px;
+    margin-bottom: 30px
 }
 
 .gallery{
-  margin-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 .body{
-  padding-bottom: 650px;
+    padding-bottom: 650px;
 }
