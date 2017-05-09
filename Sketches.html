@@ -3,9 +3,8 @@
 <head>
   <title>Sarah Song's Portfolio</title>
   <!-- Latest compiled and minified CSS -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-  <script src="portfolio/framework/js/bootstrap.min.js"></script>
-  <script src="portfolio/framework/js/script.js"></script>
+
+
 
 <link rel="stylesheet" type="text/css" href="portfolio/framework/css/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="portfolio/framework/css/style.css">
@@ -20,78 +19,83 @@
       <!-- end row header -->
 
       <div class="row">
-        <div class="col-md-4 col-sm-6">
-          <a href="#" class="pop">
-            <img class="gallery" src="file:///Users/sarah/Desktop/Sarah/H2OConceptSketch.jpg" width= "300px" height="200px"/>
-          </a>
+        <ul class="gallery-items">
+
+    <li class="gallery-item">
+      <div class="gallery-contents">
+        <div class="thumbnail gallery-trigger"><img src="portfolio/framework/img/sketch/ConceptSketch.jpg" alt="" /></div>
+        <div class="title">Item 1</div>
+      </div>
+      <div class="gallery-expander">
+        <div class="gallery-expander-contents">
+          <div class="gallery-trigger-close close">x</div>
+          <div class="col">
+            <div class="image"><img src="portfolio/framework/img/sketch/ConceptSketch.jpg" alt="" /></div>
+          </div>
+          <div class="col">
+            <div class="title">Gallery Item 1</div>
+            <div class="contents"> Content 1 </div>
+          </div>
         </div>
+      </div>
+    </li>
 
-        <div class="col-md-4 col-sm-6">
-          <a href="#" class="pop">
-          <img class="gallery" src="file:///Users/sarah/Desktop/Sarah/MausConceptSketch.jpg" width= "300px" height="200px"/>
-          </a>
+    <li class="gallery-item">
+      <div class="gallery-contents">
+        <div class="thumbnail gallery-trigger"><img src="portfolio/framework/img/sketch/H2OConceptSketch.jpg" alt="" /></div>
+        <div class="title">Gallery Item 2</div>
+      </div>
+      <div class="gallery-expander">
+        <div class="gallery-expander-contents">
+          <div class="gallery-trigger-close close">x</div>
+          <div class="col">
+            <div class="image"><img src="portfolio/framework/img/sketch/H2OConceptSketch.jpg" alt="" /></div>
+          </div>
+          <div class="col">
+            <div class="title">Gallery Item 2</div>
+            <div class="contents"> Content 2 </div>
+          </div>
         </div>
+      </div>
+    </li>
 
-        <div class="col-md-4 col-sm-6">
-          <a href="#" class="pop">
-          <img class="gallery" src="file:///Users/sarah/Desktop/Sarah/HerumOhrConceptSketch.jpg" width= "300px" height="200px"/>
-          </a>
+    <li class="gallery-item">
+      <div class="gallery-contents">
+        <div class="thumbnail gallery-trigger"><img src="portfolio/framework/img/sketch/HerumOhrConceptSketch.jpg" alt="" /></div>
+        <div class="title">Gallery Item 3</div>
+      </div>
+      <div class="gallery-expander">
+        <div class="gallery-expander-contents">
+          <div class="gallery-trigger-close close">x</div>
+          <div class="col">
+            <div class="image"><img src="portfolio/framework/img/sketch/HerumOhrConceptSketch.jpg" alt="" /></div>
+          </div>
+          <div class="col">
+            <div class="title">Gallery Item 3</div>
+            <div class="contents"> Content 3 </div>
+          </div>
         </div>
-    </div> <!-- end row -->
-
-    <div class="row">
-      <div class="col-md-4 col-sm-6">
-        <a href="#" class="pop">
-        <img class="gallery" src="file:///Users/sarah/Desktop/Sarah/HEVArcStoveConceptSketch.jpg" width= "300px" height="200px"/>
-        </a>
       </div>
+    </li>
 
-      <div class="col-md-4 col-sm-6">
-        <a href="#" class="pop">
-        <img class="gallery" src="file:///Users/sarah/Desktop/Sarah/SchnellConcept-Sketch.jpg" width= "300px" height="200px"/>
-        </a>
+  </ul>
       </div>
-
-      <div class="col-md-4 col-sm-6">
-        <a href="#" class="pop">
-        <img class="gallery" src="file:///Users/sarah/Desktop/Sarah/RainFallSinkConceptSketch.jpg" width= "300px" height="200px"/>
-        </a>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col-md-4 col-sm-6">
-        <a href="#" class="pop">
-        <img class= "gallery" src="file:///Users/sarah/Desktop/Sarah/VisualSensoryAidConceptSketch.jpg" width= "300px" height="200px"/>
-        </a>
-      </div>
-
-      <div class="col-md-4 col-sm-6">
-        <a href="#" class="pop">
-        <img class="gallery" src="file:///Users/sarah/Desktop/Sarah/StudieConceptSketch.jpg" width= "300px" height="200px"/>
-        </a>
-      </div>
-
-      <div class="col-md-4 col-sm-6">
-        <a href="#" class="pop">
-        <img class="gallery" src="file:///Users/sarah/Desktop/Sarah/WoodenPodConceptSketch.jpg" width= "300px" height="200px"/>
-        </a>
-      </div>
-    </div>
-
-    <div class="modal fade" id="imagemodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-body">
-      	<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-        <img src="" class="imagepreview" style="width: 70%;" >
-      </div>
-    </div>
-  </div>
-</div>
 
 </div> <!-- end container -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="portfolio/framework/js/jquery.imagelistexpander.js"></script>
+<script src="portfolio/framework/js/bootstrap.min.js"></script>
+<!-- <script src="portfolio/framework/js/script.js"></script> -->
+<script>
+(function(global, $){
+  $('.gallery-items').imagelistexpander({
+    prefix: "gallery-"
+  });
+})(this, jQuery)
+</script>
   </body>
+
 
 
 </html>
