@@ -2,7 +2,7 @@ h1 {
     color:#ACC4E0;
     text-align: center;
 }
-h3 {
+h3> {
     color:#ACC4E0;
     text-align: right;
 }
@@ -16,6 +16,18 @@ h3 {
     color:#FFFFFF;
 }
 
+.sketch:hover{
+    transform:scale(3.5);
+    position:absolute;
+    z-index: 2;
+    height: 263px;
+    width: 170px;
+    margin-top: 200px;
+    margin-bottom: 0px;
+    margin-left: 178px;
+    padding-top: 100px;
+}
+
 .prod{
     background-color: #ACC4E0;
     text-align: center;
@@ -23,6 +35,18 @@ h3 {
 
 .prod>a{
     color:#F4C8CB;
+}
+
+.prod:hover{
+    transform:scale(3.5);
+    position:absolute;
+    z-index: 2;
+    height: 263px;
+    width: 170px;
+    margin-top: 200px;
+    margin-bottom: 0px;
+    margin-left: 180px;
+    padding-top: 100px;
 }
 
 .fine{
@@ -34,9 +58,22 @@ h3 {
     color:#D3B88C;
 }
 
+.fine:hover{
+    transform:scale(3.5);
+    position:absolute;
+    z-index: 2;
+    height: 263px;
+    width: 170px;
+    margin-top: 200px;
+    margin-bottom: 0px;
+    margin-left: 182px;
+    padding-top: 100px;
+}
+
 .header{
     margin-top: 30px;
-    margin-bottom: 30px
+    margin-bottom: 30px;
+    margin-left: 250px;
 }
 
 .gallery{
